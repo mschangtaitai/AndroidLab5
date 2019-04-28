@@ -45,14 +45,14 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
         viewHolder.addButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                cants.set(i, cants.get(i) + "1");
+                //cants.set(i, (cants.get(i).toInt()) + 1);
             }
         });
 
         viewHolder.subButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-               // cants.set(i, cants.get(i) - 1);
+               //cants.set(i, (cants.get(i).toInt()) - 1);
             }
         });
     }
